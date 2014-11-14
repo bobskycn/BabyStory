@@ -1,4 +1,9 @@
-package com.example.babystory;
+package com.example.babystory.activity;
+
+import com.example.babystory.R;
+import com.example.babystory.R.id;
+import com.example.babystory.R.layout;
+import com.example.babystory.R.menu;
 
 import android.support.v7.app.ActionBarActivity;
 import android.support.v7.app.ActionBar;
