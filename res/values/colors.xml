@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="view_entry_list_bg" type="color">#e7e6e1</item>
+    <item name="view_entry_display_item_title" type="color">#999911</item>
+    <item name="view_entry_display_item_content" type="color">#dddddd</item>
+    <item name="green_bg" type="color">#49aad9</item>
+    <item name="menu_111" type="color">#111</item>
+    <item name="adapter_entry_list_content" type="color">#99cc66</item>
+    <item name="adapter_history_list_content" type="color">#666611</item>
+    <item name="introduce_bg" type="color">#6666cc</item>
+    <item name="introduce_content_text" type="color">#ffff00</item>
+    <item name="adapter_history_list_number" type="color">#666611</item>
+ <item name="menu_item_bg" type="color">#80eeeeee
+</item>
+<!-- 新的颜色样式 -->
+    
+     <item name="color_transparent" type="color">#00000000
+</item>
+    <item name="white" type="color">#ffffff
+</item>
+ <item name="white_transparent" type="color">#99ffffff
+</item>
+<item name="white_transparent_more" type="color">#22ffffff
+</item>
+ <item name="corlor_action_bar" type="color">#fe547b
+</item>
+<item name="corlor_action_bar_tansparent" type="color">#99fe547b
+</item>
+<item name="color_bg_fragment" type="color">#eeeff3
+</item>
+
+<item name="color_border_fragment" type="color">#bfbfbf
+</item>
+
+</resources>

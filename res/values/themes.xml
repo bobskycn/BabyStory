@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="MyAppTheme.NoTitle" parent="@style/Theme.AppCompat.Light">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="MyAppTheme.NoTitle.FullScreen" parent="@style/Theme.AppCompat">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <!-- 另一个主题 -->
+    <style name="MyAppTheme.HasTitle.setHeight" parent="@style/Theme.AppCompat.Light">
+        
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+
+        <!-- Support library compatibility -->
+        <item name="actionBarStyle">@style/MyActionBar</item>      
+    </style>
+    
+     <!-- ActionBar styles -->
+     
+    <style name="MyActionBar"
+           parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@drawable/bg_actionbar</item>
+        <item name="android:backgroundSplit">@drawable/bg_actionbar_split</item>
+        <item name="android:height">55dp</item>
+
+        <!-- Support library compatibility -->
+        <item name="background">@drawable/bg_actionbar</item>
+        <item name="backgroundSplit">@drawable/bg_actionbar_split</item>
+        <item name="height">55dp</item>
+    </style>
+
+</resources>
